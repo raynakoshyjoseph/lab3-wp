@@ -1,0 +1,35 @@
+<%- include('header'); -%>
+
+    <div class='content'>
+        <form action="/api/register" method="post">
+           
+            <p for="username" >Username: <br>
+            <input type="text" name="username" placeholder="Name" autofocus></p>
+            <p for="password">Password:<br>
+            <input type="password" name="passwsord" placeholder="Password" ></p>
+            <p for="society">Society:<br>
+            <input type="text" name="society" placeholder="Society"></p>
+            <p for="contact">Contact:<br>
+            <input type="text" name="contact" placeholder="Contact"></p>
+            <p for="address">Address:<br>
+            <input type="text" name="addres" placeholder="Address" ></p>
+            <p for="zipcode">Zipcode:<br>
+            <input type="text" name="zipcode" placeholder="Zipcode" ></p>
+            <p for="city">City:<br>
+            <input type="text" name="city" placeholder="City"></p>
+            <p for="phone">Phone:<br>
+                <input type="text" name="city" placeholder="Phone"></p>
+            <p for="fax">Fax number:<br>
+            <input type="text" name="fax" placeholder="Fax Number"></p>
+    
+            <p for="max_outstanding">Maximum Outstanding:<br>
+            <input type="text" name="max_outstanding" placeholder="Maximum Outstanding"></p>
+ 
+            <button type="submit">Register</button>
+            
+  
+        </form>
+
+    </div>
+<br>
+    <%- include('footer'); -%>
